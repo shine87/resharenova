@@ -1,8 +1,5 @@
 	<div class="clear"></div>
 	<footer id="main-footer">
-		<nav id="footer-menu">
-			<?php wp_nav_menu( 'theme_location=footer&container_class=footer-menu&menu_class=ul-menu&fallback_cb=main_menu' ); ?>
-		</nav>
 		<div id="footer-credits">
 			<p><?php echo get_bloginfo( 'name' ) ." | " . get_bloginfo( 'description' ); ?></p>
 		</div>

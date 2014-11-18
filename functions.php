@@ -42,7 +42,6 @@ add_action( 'wp_enqueue_scripts', 'resharenova_scripts' );
 //Registering navigation menus
 register_nav_menus( array(
 	'primary'	=>	'Main Menu',
-	'footer'	=>	'Footer Menu'
 ) );
 function main_menu() {
 	wp_page_menu( 'show_home=1' );
@@ -73,24 +72,6 @@ function sidebar_gadgets() {
 	register_sidebar( array(
 		'name'			=>	'Right Sidebar 1',
 		'id'			=>	'right-sidebar-gadget-1',
-		'description'	=>	'Right Sidebar Gadgets',
-		'before_widget'	=>	'<aside id="%1$s" class="widget %2$s">',
-		'after_widget'	=>	'</aside>',
-		'before_title'	=>	'<h3 class="widget-title">',
-		'after_title'	=>	'</h3>'
-	) );
-	register_sidebar( array(
-		'name'			=>	'Right Sidebar 2',
-		'id'			=>	'right-sidebar-gadget-2',
-		'description'	=>	'Right Sidebar Gadgets',
-		'before_widget'	=>	'<aside id="%1$s" class="widget %2$s">',
-		'after_widget'	=>	'</aside>',
-		'before_title'	=>	'<h3 class="widget-title">',
-		'after_title'	=>	'</h3>'
-	) );
-	register_sidebar( array(
-		'name'			=>	'Right Sidebar 3',
-		'id'			=>	'right-sidebar-gadget-3',
 		'description'	=>	'Right Sidebar Gadgets',
 		'before_widget'	=>	'<aside id="%1$s" class="widget %2$s">',
 		'after_widget'	=>	'</aside>',
