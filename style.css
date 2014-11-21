@@ -1,9 +1,8 @@
 /*
 Theme Name: Resharenova
-Theme URI: http://resharenova.com/
 Author: Resharenova
 Description: Responsive theme for normal blogs.
-Version: 1.0
+Version: 1.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: dark, light, two-columns, right-sidebar, responsive-layout, custom-background, custom-menu, sticky-post
@@ -165,11 +164,17 @@ h2.search-title {
 	margin: 5px 10px;
 }
 div#no-entry h2 {
-	background: #E21414;
 	padding: 5px;
 	margin: 5px;
 	font-style: italic;
 	font-variant: small-caps;
+	text-align: center;
+}
+.error404 #content {
+	padding: 10px;
+	font-size: 20px;
+}
+.error404 #no-entry {
 	text-align: center;
 }
 .entry-title {

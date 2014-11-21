@@ -2,8 +2,11 @@
 Resharenova is a simple theme designed for normal blogs.
 
 == Change Logs ==
+- 1.3 -
+	- Fixed some errors.
+- 1.2 -
+	- Changed some urls.
 - 1.1 -
-	- Minor Bug Fix.
-	
+	- Added screenshot.png
 - 1.0 -
 	- Initial release.
